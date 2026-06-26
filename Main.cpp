@@ -540,6 +540,7 @@ double WithdrawalsTransaction(vector <stClient> vClients, double WithdrawalAmoun
 		{
 			if (C.AccNum == AccNum)
 			{
+				
 				C.Balance -= WithdrawalAmount;
 				SaveClientDataToFile(vClients);
 
@@ -560,6 +561,13 @@ bool Withdrawals_ByAccountNumber(vector <stClient> vClients, string AccNum)
 
 		cout << "\nPlease, Enter the Withdarwal Amount : ";
 		cin >> WithdrawalAmount;
+
+		do 
+		{
+			cout << "\n\nThe Withdrawal Amount EXCEEDS THE AVAILABLE Balance;\n you can withdraw up to : " << Client.Balance;
+			cout << "\n\nPLEASE, ENTER ANOTHE AMOUNT : ";
+			cin >> WithdrawalAmount;
+		} while (WithdrawalAmount > Client.Balance);
 
 		cout << "\n\nThe Client Balance Was Updated Successfully\n The New Balance is : " << WithdrawalsTransaction(vClients, WithdrawalAmount, AccNum);
 
