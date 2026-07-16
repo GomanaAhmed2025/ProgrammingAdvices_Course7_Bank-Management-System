@@ -98,24 +98,43 @@ Bank-Management-System/
 
 ### Main Menu
 
-*(Add screenshot here later)*
+![Main Menu](images/main-menu.png)
 
 ### Client List
 
-*(Add screenshot here later)*
+![Client List](images/client-list.png)
+
+### Add New Client
+
+![Add New Client](images/add-client.png)
+
+### Delete Client
+
+![Delete Client](images/delete-client.png)
+
+### Update Client Information
+
+![Update Client](images/update-client.png)
+
+### Find Client
+
+![Find Client](images/find-client.png)
 
 ### Transactions Menu
 
-*(Add screenshot here later)*
+![Transactions Menu](images/transactions-menu.png)
 
-### Deposit Screen
+### Deposit
 
-*(Add screenshot here later)*
+![Deposit](images/deposit.png)
 
-### Withdraw Screen
+### Withdraw
 
-*(Add screenshot here later)*
+![Withdraw](images/withdraw.png)
 
+### Total Balances
+
+![Total Balances](images/total-balances.png)
 ---
 
 ## ▶️ How to Run
